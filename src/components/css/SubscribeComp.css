@@ -1,0 +1,71 @@
+.subscribeBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 auto 0 auto;
+  max-width: 1440px;
+  min-width: 576px;
+}
+
+.subscribeTitle {
+  margin: 10px;
+}
+
+.subscribeForm {
+  margin: 10px;
+}
+
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.emailArea {
+  margin-bottom: 10px;
+}
+
+.birthArea {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.dateWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customSelect1,
+.customSelect2,
+.customSelect3 {
+  width: 100%;
+  padding: 0 auto 0 auto;
+}
+
+.customSelect1,
+.customSelect2 {
+  margin-right: 5px;
+}
+
+.customSelect2,
+.customSelect3 {
+  margin-left: 5px;
+}
+
+.inputSelectCustomSelectDateCheck {
+  width: 100%;
+}
+
+.inputText {
+  width: 100%;
+}
+
+.agreeWrap {
+  margin-bottom: 10px;
+}
+
+.btnWrap .btnSubmit {
+  width: 100%;
+}

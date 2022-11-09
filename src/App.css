@@ -1,38 +1,56 @@
+@font-face {
+  font-family: "KyoboHandwriting2020A";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
+  position: relative;
   text-align: center;
+  min-width: 576px;
+  width: 100%;
+  color: white;
+  background-color: #2b2b2b;
+  overflow-x: hidden;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .titlePosition {
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .title {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(28, 31, 28, 0.797);
+  font-family: "KyoboHandwriting2020A";
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App .navbar {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+
+.App .navbar-text,
+.App .navbar-text a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .navbar-text a:hover,
+.App .navbar-text a:focus {
+  color: rgb(134, 170, 184);
 }
